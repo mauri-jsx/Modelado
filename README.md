@@ -19,6 +19,7 @@ El proyecto se compone de dos modelos principales:
 
 #### Venta
 
+- **name**: El nombre de la ventas
 - **price**: Número que representa el monto de la venta.
 - **date**: Fecha en la que se realizó la venta, con un valor predeterminado de la fecha actual.
 - **employee**: Referencia al modelo `Empleado`, que indica quién realizó la venta.
