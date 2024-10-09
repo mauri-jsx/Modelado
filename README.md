@@ -13,15 +13,15 @@ El proyecto se compone de dos modelos principales:
 
 #### Empleado
 
-- **nombre**: Cadena de texto que representa el nombre del empleado.
+- **name**: Cadena de texto que representa el nombre del empleado.
 - **email**: Cadena de texto que debe ser única y sirve como identificador para el acceso a la aplicación.
-- **contraseña**: Cadena de texto que almacena la contraseña del empleado (debería ser almacenada de forma segura, utilizando técnicas como hashing).
+- **password**: Cadena de texto que almacena la contraseña del empleado (debería ser almacenada de forma segura, utilizando técnicas como hashing).
 
 #### Venta
 
-- **monto**: Número que representa el monto de la venta.
-- **fecha**: Fecha en la que se realizó la venta, con un valor predeterminado de la fecha actual.
-- **empleado**: Referencia al modelo `Empleado`, que indica quién realizó la venta.
+- **price**: Número que representa el monto de la venta.
+- **date**: Fecha en la que se realizó la venta, con un valor predeterminado de la fecha actual.
+- **employee**: Referencia al modelo `Empleado`, que indica quién realizó la venta.
 
 ### Relaciones
 
