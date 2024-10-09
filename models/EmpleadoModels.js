@@ -3,13 +3,13 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 // Esquema de Empleado
-const empleadoSchema = new Schema({
-    nombre: { type: String, required: true },
+const employeeSchema = new Schema({
+    name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
-    contraseña: { type: String, required: true },
+    password: { type: String, required: true },
 });
 
 // Modelo de Empleado
-const Empleado = mongoose.model('Empleado', empleadoSchema);
+const Employee = mongoose.model('Employee', employeeSchema);
 
-export default Empleado;
+export default Employee;
